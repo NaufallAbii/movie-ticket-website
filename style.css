@@ -1,0 +1,108 @@
+.container {
+  padding: 0 80px 0 80px !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 25px !important;
+  font-family: Sixtyfour Convergence;
+}
+
+.carousel .carousel-item {
+  max-height: 550px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 550px;
+}
+
+
+
+.gallery-film .judul {
+  margin-top: 8%;
+  padding-bottom: 2%;
+}
+
+.gallery-film .judul h1 {
+  font-family: Afacad Flux;
+}
+
+.movie-card {
+  margin-bottom: 30px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.movie-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.badge-custom {
+  background-color: red;
+  color: white;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* Button styling */
+.btn-book {
+  display: none;
+  margin-top: 10px;
+}
+
+.movie-card:hover .btn-book {
+  display: block;
+}
+
+/* Hover overlay */
+.movie-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+.movie-card:hover .movie-overlay {
+  display: flex;
+}
+
+.card-1 button {
+  color: white;
+  background-color: #f72a35;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 15px 5px 15px;
+}
+
+.btn-merah {
+  color: white;
+  background-color: #f72a35;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 8px;
+  padding: 5px 15px 5px 15px;
+}
+
+@media (max-width: 576px) {
+  .gallery-film .judul h1 {
+    font-size: 2rem;
+  }
+}
